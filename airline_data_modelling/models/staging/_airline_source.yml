@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+    - name: airline_source
+      database: demo
+      schema:  bookings
+      tables:
+        - name: aircrafts_data
+          description: "This table contains information about the aircrafts used by the airline."
+        - name: airports_data
+          description: "This table contains information about the airports."
+        - name: boarding_passes
+          description: "This table contains information about the boarding passes."
+        - name: bookings
+          description: "This table contains information about the bookings."
+        - name: flights
+          description: "This table contains information about the flights."
+        - name: seats
+          description: "This table contains information about the seats."
+        - name: ticket_flights
+          description: "This table contains information about the ticket flights."
+        - name: tickets
+          description: "This table contains information about the tickets."

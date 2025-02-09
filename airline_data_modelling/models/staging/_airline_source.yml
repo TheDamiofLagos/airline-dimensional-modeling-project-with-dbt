@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-    - name: airline_source
+    - name: airline
       database: demo
       schema:  bookings
       tables:
